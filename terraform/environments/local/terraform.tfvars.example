@@ -1,0 +1,8 @@
+# Example configuration for local Floci deployment
+aws_region     = "ap-south-1"
+floci_endpoint = "http://localhost:4566"
+
+# S3 Configuration
+s3_bucket_name = "file-processing-ingest-local"
+environment    = "local"
+project_name   = "event-driven-file-processing"
